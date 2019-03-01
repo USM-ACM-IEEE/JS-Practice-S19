@@ -8,5 +8,5 @@ let antarctica = [{"country_name":"Antarctica","country_abbreviation":"AQ","capi
 for (var key in antarctica) {
     if (antarctica.hasOwnProperty(key)) {
       console.log(antarctica[key]['country_name'] + " " + antarctica[key]['country_abbreviation']);
-    }
-  }
+    };
+  };

@@ -9,4 +9,4 @@ var emptyArray = new Array(100);
 for (var i = 0; i < 100; i++) {
    emptyArray[i] = Math.floor((Math.random() * 1000) + 1);
    console.log(JSON.stringify(emptyArray[i]));
-}
+};
